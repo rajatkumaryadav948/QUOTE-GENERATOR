@@ -1,0 +1,31 @@
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background: linear-gradient(to right, #f104e9, #243b55);
+     color: white;
+     font-family: Arial;
+ }
+
+ .box {
+     background: #444;
+     padding: 30px;
+     border-radius: 10px;
+     max-width: 400px;
+     text-align: center;
+ }
+
+ button {
+     background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 12px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      transition: all .3s ease;
+      letter-spacing: 1px;
+ }
